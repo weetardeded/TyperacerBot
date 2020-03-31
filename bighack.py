@@ -3,7 +3,7 @@ from time import sleep
 import bot_func as bf
 from PIL import Image
 
-wd = webdriver.Chrome("C:\\Users\\Martin\\Desktop\\typeracer\\chromedriver.exe")
+wd = webdriver.Chrome("C:\\Users\\USERNAME\\Desktop\\typeracer bot\\chromedriver.exe")
 wd.get("https://play.typeracer.com/")
 
 text = bf.getRaceText(wd)
